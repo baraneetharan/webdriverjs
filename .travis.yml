@@ -1,3 +1,13 @@
 language: node_js
 node_js:
   - "0.10"
+install:
+  - npm install -g mocha
+  - npm install -g webdriverjs
+  - npm install -g mochawesome
+  - npm install
+before_script:
+  - webdriverjs --version
+  - sleep 5 # give gulp background task some time to execute.
+script:
+  - mocha spec --reporter mochawesome  
