@@ -7,7 +7,6 @@
     "mocha": "latest",
     "webdriverjs":"latest",
     "mochawesome":"latest",
-    "mochawesomeplusplus":"latest",
     "better-mocha-html-reporter": "latest"
   },
   "scripts": {
