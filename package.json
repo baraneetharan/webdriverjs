@@ -8,5 +8,8 @@
     "webdriverjs":"latest",
     "mochawesome":"latest",
     "better-mocha-html-reporter": "latest"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
   }
 }
