@@ -18,13 +18,3 @@ driver.get('http://www.google.com');
     driver.quit();
   });
 });
-
-mocha = new mocha({
-    ui: 'bdd',
-    reporter: 'mochawesomeplusplus',
-    reporterOptions: {
-    reportDir: './',
-    reportName: 'testResults_'
-    },
-    timeout: 60000
-    });
