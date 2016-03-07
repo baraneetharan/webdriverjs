@@ -3,7 +3,7 @@ node_js:
   - "0.10"
 install:
   - npm install -g mocha
-  - npm install -g webdriverjs
+  - npm install -g npm i selenium-webdriverjs
   - npm install -g mochawesome
   - npm install
 before_script:
