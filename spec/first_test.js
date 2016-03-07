@@ -5,7 +5,7 @@ webdriver = require('selenium-webdriver');
  
 test.describe('Google Search', function() {
   test.it('should work', function() {
-      this.timeout(35000);
+      this.timeout(15000);
     var driver = new webdriver.Builder().
     withCapabilities(webdriver.Capabilities.firefox()).
     build();
