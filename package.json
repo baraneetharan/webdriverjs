@@ -1,0 +1,11 @@
+{
+  "name": "Prolive_API_test",
+  "author": "Baranee",  
+  "version": "0.0.1",
+  "dependencies": {
+    "chakram": "latest",
+    "mocha": "latest",
+    "webdriverjs":"latest",
+    "better-mocha-html-reporter": "latest"
+  }
+}
