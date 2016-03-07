@@ -10,6 +10,6 @@
     "better-mocha-html-reporter": "latest"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha spec--reporter spec"
+    "test": "mocha"
   }
 }
