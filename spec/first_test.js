@@ -10,7 +10,7 @@ test.describe('Google Search', function() {
     build();
 driver.get('http://www.google.com');
     var searchBox = driver.findElement(webdriver.By.name('q'));
-    searchBox.sendKeys('simple programmer');
+    searchBox.sendKeys('simple java programmer');
     searchBox.getAttribute('value').then(function(value) {
       assert.equal(value, 'simple programmer');
     });
