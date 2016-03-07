@@ -7,7 +7,6 @@ install:
   - npm install -g mochawesome
   - npm install
 before_script:
-  - selenium-webdriver —version
-  - sleep 5 # give gulp background task some time to execute.
+  - sleep 3 # give gulp background task some time to execute.
 script:
   - mocha spec
