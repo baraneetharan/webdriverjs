@@ -6,9 +6,10 @@
     "chakram": "latest",
     "mocha": "latest",
     "webdriverjs":"latest",
+    "mochawesome":"latest",
     "better-mocha-html-reporter": "latest"
   },
   "scripts": {
-    "test": "mocha spec"
+    "test": "make test"
   }
 }
