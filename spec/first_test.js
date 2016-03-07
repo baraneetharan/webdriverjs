@@ -1,3 +1,4 @@
+var mocha=require('Mocha');
 var assert = require('assert'),
 test = require('selenium-webdriver/testing'),
 webdriver = require('selenium-webdriver');
@@ -17,3 +18,13 @@ driver.get('http://www.google.com');
     driver.quit();
   });
 });
+
+mocha = new mocha({
+    ui: 'bdd',
+    reporter: 'mochawesomeplusplus',
+    reporterOptions: {
+    reportDir: './',
+    reportName: 'testResults_'
+    },
+    timeout: 60000
+    });
