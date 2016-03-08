@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">webdriverjs</h1>
+          <h3 class="report-date">Tuesday, March 8 2016, 12:38pm</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">30.31<span>S</span></li>
+              <li class="qs-item summary-suites" title="Suites">1</li>
+              <li class="qs-item summary-tests" title="Tests">1</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">0</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">1</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">30.31<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Test</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct danger">0% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="16515cc7-232a-45cc-9c41-7d3516c17130" class="suite has-tests has-failed">
+            <h3 class="suite-title">Google Search</h3>
+            <h5 class="suite-filename">\spec\first_test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="16515cc7-232a-45cc-9c41-7d3516c17130" class="suite-chart" width="50" height="50" data-total-passes="0" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">30.19 s</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">0</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#16515cc7-232a-45cc-9c41-7d3516c17130-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="16515cc7-232a-45cc-9c41-7d3516c17130-test-list" class="list-group test-list collapse in">
+                    <div id="98d05814-bc01-4646-b76d-4908e160564e" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should work
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#98d05814-bc01-4646-b76d-4908e160564e > .test-code.collapse">Code</button>
+              <span class="test-duration ">30.19 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">Error: timeout of 30000ms exceeded. Ensure the done() callback is being called in this test.
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#98d05814-bc01-4646-b76d-4908e160564e > .test-error-stack.collapse">Stack</button>
+            </p>
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">30000</span>);<br>    <span class="hljs-keyword">var</span> driver = <span class="hljs-keyword">new</span> webdriver.Builder().<br>    withCapabilities(webdriver.Capabilities.firefox()).<br>    build();<br>driver.get(<span class="hljs-string">'http://www.google.com'</span>);<br>    <span class="hljs-keyword">var</span> searchBox = driver.findElement(webdriver.By.name(<span class="hljs-string">'q'</span>));<br>    searchBox.sendKeys(<span class="hljs-string">'simple nodejs programmer'</span>);<br>    searchBox.getAttribute(<span class="hljs-string">'value'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">value</span>) </span>{<br>assert.equal(value, <span class="hljs-string">'simple nodejs programmer'</span>);<br>    });<br>    driver.quit();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small"><span class="hljs-built_in">Error</span>: timeout <span class="hljs-keyword">of</span> <span class="hljs-number">30000</span>ms exceeded. Ensure the done() callback is being called <span class="hljs-keyword">in</span> <span class="hljs-keyword">this</span> test.<br>    at <span class="hljs-literal">null</span>.&lt;anonymous&gt; (c:\Users\baraneetharan.r\AppData\Roaming\npm\node_modules\mocha\lib\runnable.js:<span class="hljs-number">215</span>:<span class="hljs-number">19</span>)</code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
