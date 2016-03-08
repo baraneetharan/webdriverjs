@@ -14,14 +14,14 @@
       <div class="container">
         <div class="report-info-cnt">
           <h1 class="report-title">custom_ReportTitle</h1>
-          <h3 class="report-date">Tuesday, March 8 2016, 03:55pm</h3>
+          <h3 class="report-date">Tuesday, March 8 2016, 05:13pm</h3>
         </div>
         <div class="quick-summary-cnt">
             <ul class="list-unstyled quick-summary">
-              <li class="qs-item summary-duration" title="Duration">11<span>MS</span></li>
-              <li class="qs-item summary-suites" title="Suites">1</li>
-              <li class="qs-item summary-tests" title="Tests">1</li>
-              <li class="qs-item summary-passes" title="Passed" data-filter="passed">1</li>
+              <li class="qs-item summary-duration" title="Duration">5.825<span>S</span></li>
+              <li class="qs-item summary-suites" title="Suites">2</li>
+              <li class="qs-item summary-tests" title="Tests">2</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">2</li>
               <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
               <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
             </ul>        </div>
@@ -33,19 +33,19 @@
       <div class="container">
           <div class="row">
             <div class="summary-col summary-duration">
-              <h1 class="summary-count">11<span>MS</span></h1>
-              <h4 class="summary-label">MS</h4>
+              <h1 class="summary-count">5.825<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
             </div>
             <div class="summary-col summary-suites" title="Suites">
-              <h1 class="summary-count">1</h1>
-              <h4 class="summary-label">Suite</h4>
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Suites</h4>
             </div>
             <div class="summary-col summary-tests" title="Tests">
-              <h1 class="summary-count">1</h1>
-              <h4 class="summary-label">Test</h4>
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Tests</h4>
             </div>
             <div class="summary-col summary-passes" data-filter="passed" title="Passed">
-              <h1 class="summary-count">1</h1>
+              <h1 class="summary-count">2</h1>
               <h4 class="summary-label">Passed</h4>
             </div>
             <div class="summary-col summary-failures" data-filter="failed" title="Failed">
@@ -69,17 +69,17 @@
     <!-- Suites -->
     <div class="details container">
             <section class="suite-wrap">
-          <div id="0548640f-f0aa-4cd2-ba27-5b524a1dc24d" class="suite has-tests has-passed">
-            <h3 class="suite-title">sample</h3>
+          <div id="3705ebfa-3d58-4080-8f28-5ca7def67e31" class="suite has-tests has-passed">
+            <h3 class="suite-title">Google Search</h3>
             <h5 class="suite-filename">\spec\first_test.js</h5>
             <!-- Suite Chart -->
             <div class="suite-chart-wrap">
-              <canvas id="0548640f-f0aa-4cd2-ba27-5b524a1dc24d" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+              <canvas id="3705ebfa-3d58-4080-8f28-5ca7def67e31" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
             </div>
             <div class="suite-data-wrap">
               <!-- Suite Summary -->
               <ul class="suite-summary list-unstyled">
-                <li class="suite-summary-item duration">4 ms</li>
+                <li class="suite-summary-item duration">5.818 s</li>
                 <li class="suite-summary-item tests">1</li>
                 <li class="suite-summary-item passed">1</li>
                 <li class="suite-summary-item failed">0</li>
@@ -87,11 +87,11 @@
               </ul>
               <!-- Test Info -->
               <div class="suite-test-wrap">
-                <div class="suite-test-header" data-toggle="collapse" data-target="#0548640f-f0aa-4cd2-ba27-5b524a1dc24d-test-list">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#3705ebfa-3d58-4080-8f28-5ca7def67e31-test-list">
                   <h4 class="suite-test-header-title">Tests</h4>
                 </div>
-                <div id="0548640f-f0aa-4cd2-ba27-5b524a1dc24d-test-list" class="list-group test-list collapse in">
-                    <div id="6c3336cc-04b4-476b-bb94-526528441bb1" class="list-group-item test passed">
+                <div id="3705ebfa-3d58-4080-8f28-5ca7def67e31-test-list" class="list-group test-list collapse in">
+                    <div id="1016a277-6090-4cfc-a88f-6e803ddd73e5" class="list-group-item test passed">
           <!-- Test Heading -->
           <div class="test-heading">
             <h4 class="test-title">
@@ -99,8 +99,56 @@
               should work
             </h4>
             <div class="pull-right">
-              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#6c3336cc-04b4-476b-bb94-526528441bb1 > .test-code.collapse">Code</button>
-              <span class="test-duration fast">4 ms</span>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#1016a277-6090-4cfc-a88f-6e803ddd73e5 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">5.818 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">this</span>.timeout(<span class="hljs-number">30000</span>);<br>    <span class="hljs-keyword">var</span> driver = <span class="hljs-keyword">new</span> webdriver.Builder().<br>    withCapabilities(webdriver.Capabilities.firefox()).<br>    build();<br>driver.get(<span class="hljs-string">'http://www.google.com'</span>);<br>    <span class="hljs-keyword">var</span> searchBox = driver.findElement(webdriver.By.name(<span class="hljs-string">'q'</span>));<br>    searchBox.sendKeys(<span class="hljs-string">'simple nodejs programmer'</span>);<br>    searchBox.getAttribute(<span class="hljs-string">'value'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">value</span>) </span>{<br>assert.equal(value, <span class="hljs-string">'simple nodejs programmer'</span>);<br>    });<br>    driver.quit();</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="ec5bd4df-3627-4225-9749-49c6acd57d84" class="suite has-tests has-passed">
+            <h3 class="suite-title">sample</h3>
+            <h5 class="suite-filename">\spec\first_test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="ec5bd4df-3627-4225-9749-49c6acd57d84" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#ec5bd4df-3627-4225-9749-49c6acd57d84-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="ec5bd4df-3627-4225-9749-49c6acd57d84-test-list" class="list-group test-list collapse in">
+                    <div id="d0fdf98d-17b9-4612-8119-e260bbdbbc63" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should work
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d0fdf98d-17b9-4612-8119-e260bbdbbc63 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
             </div>
           </div>
           <!-- Test Errors -->
