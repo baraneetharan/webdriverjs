@@ -1,5 +1,5 @@
 {
-  "reportTitle": "webdriverjs",
+  "reportTitle": "custom_ReportTitle",
   "inlineAssets": false,
   "stats": {
     "suites": 1,
@@ -7,8 +7,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2016-03-08T10:22:01.205Z",
-    "end": "2016-03-08T10:22:01.216Z",
+    "start": "2016-03-08T10:25:06.567Z",
+    "end": "2016-03-08T10:25:06.578Z",
     "duration": 11,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -31,7 +31,7 @@
             "title": "should work",
             "fullTitle": "sample should work",
             "timedOut": false,
-            "duration": 5,
+            "duration": 4,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -39,8 +39,8 @@
             "pending": false,
             "code": "assert.equal(<span class=\"hljs-string\">'value'</span>, <span class=\"hljs-string\">'value'</span>);",
             "isRoot": false,
-            "uuid": "50f9c0e0-b84e-4b8b-ad7b-361ff58a9dca",
-            "parentUUID": "86ef6aff-6841-4a05-b5b8-2f38d21f26f1",
+            "uuid": "6c3336cc-04b4-476b-bb94-526528441bb1",
+            "parentUUID": "0548640f-f0aa-4cd2-ba27-5b524a1dc24d",
             "skipped": false
           }
         ],
@@ -48,14 +48,14 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\spec\\first_test.js",
-        "uuid": "86ef6aff-6841-4a05-b5b8-2f38d21f26f1",
+        "uuid": "0548640f-f0aa-4cd2-ba27-5b524a1dc24d",
         "fullFile": "d:\\Baranee\\Testing\\webdriverjs\\spec\\first_test.js",
         "passes": [
           {
             "title": "should work",
             "fullTitle": "sample should work",
             "timedOut": false,
-            "duration": 5,
+            "duration": 4,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -63,8 +63,8 @@
             "pending": false,
             "code": "assert.equal(<span class=\"hljs-string\">'value'</span>, <span class=\"hljs-string\">'value'</span>);",
             "isRoot": false,
-            "uuid": "50f9c0e0-b84e-4b8b-ad7b-361ff58a9dca",
-            "parentUUID": "86ef6aff-6841-4a05-b5b8-2f38d21f26f1",
+            "uuid": "6c3336cc-04b4-476b-bb94-526528441bb1",
+            "parentUUID": "0548640f-f0aa-4cd2-ba27-5b524a1dc24d",
             "skipped": false
           }
         ],
@@ -81,14 +81,14 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 5
+        "duration": 4
       }
     ],
     "tests": [],
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "b219819d-01e7-420f-afa1-49321c06b5ed",
+    "uuid": "e2f9d156-7eef-4957-934e-211fb6fbfe5d",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -113,7 +113,7 @@
       "title": "should work",
       "fullTitle": "sample should work",
       "timedOut": false,
-      "duration": 5,
+      "duration": 4,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -121,8 +121,8 @@
       "pending": false,
       "code": "assert.equal(<span class=\"hljs-string\">'value'</span>, <span class=\"hljs-string\">'value'</span>);",
       "isRoot": false,
-      "uuid": "291ad1fc-f28f-477d-b85c-2ba0bf50acf3",
-      "parentUUID": "86ef6aff-6841-4a05-b5b8-2f38d21f26f1",
+      "uuid": "8538c100-01fb-4d03-aaea-4b043b3fb647",
+      "parentUUID": "0548640f-f0aa-4cd2-ba27-5b524a1dc24d",
       "skipped": false
     }
   ],
@@ -132,7 +132,7 @@
       "title": "should work",
       "fullTitle": "sample should work",
       "timedOut": false,
-      "duration": 5,
+      "duration": 4,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -140,8 +140,8 @@
       "pending": false,
       "code": "assert.equal(<span class=\"hljs-string\">'value'</span>, <span class=\"hljs-string\">'value'</span>);",
       "isRoot": false,
-      "uuid": "76d8fa06-36a6-481c-9acf-8acabc2eeea8",
-      "parentUUID": "86ef6aff-6841-4a05-b5b8-2f38d21f26f1",
+      "uuid": "1e834c2c-d8b7-4a5d-9067-97156e316422",
+      "parentUUID": "0548640f-f0aa-4cd2-ba27-5b524a1dc24d",
       "skipped": false
     }
   ],

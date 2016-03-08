@@ -7,6 +7,10 @@
     "mocha": "latest",
     "webdriverjs":"latest",
     "mochawesome":"latest",
+    "gulp":"latest",
+    "gulp-mocha":"latest",
+    "gulp-util":"latest",
+    "gulp-open":"latest",
     "better-mocha-html-reporter": "latest"
   },
   "scripts": {
