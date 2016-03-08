@@ -1,4 +1,3 @@
-var mocha=require('Mocha');
 var assert = require('assert'),
 test = require('selenium-webdriver/testing'),
 webdriver = require('selenium-webdriver');
