@@ -12,4 +12,4 @@ script:
   - gulp test
   - gulp open
 after_success:
-  bash <(curl -s https://codecov.io/bash)
+  bash <(curl -s http://htmlpreview.github.com/?https://github.com/baraneetharan/webdriverjs/blob/master/mochawesome-reports/custom_ReportName.html)
